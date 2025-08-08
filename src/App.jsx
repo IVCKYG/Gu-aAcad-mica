@@ -156,8 +156,8 @@ function App() {
       {/* Gif en esquina superior derecha */}
       <img src="/horario.gif" alt="Decorativo" style={{ position: 'absolute', top: 10, right: 10, maxWidth: 140, zIndex: 10 }} />
       {/* Derechos reservados centrado */}
-      <div style={{ textAlign: 'center', fontWeight: 600, marginBottom: 18, fontSize: 16 }}>
-        todos los derechos reservados para Victor Lazcano Huenche 2025 (devuelvanme mis horas de sueño)
+      <div style={{ textAlign: 'center', fontWeight: 400, marginBottom: 5, fontSize: 12 }}>
+        Todos los derechos reservados para Victor Lazcano Huenche 2025.
       </div>
       <h1>Calendario Semanal de Clases</h1>
       <button
@@ -268,12 +268,7 @@ function App() {
               >
                 Limpiar selección
               </button>
-              <button
-                onClick={guardarHorario}
-                style={{ padding: '6px 16px', background: '#2196f3', color: '#fff', border: 'none', borderRadius: 4, cursor: 'pointer' }}
-              >
-                Guardar horario
-              </button>
+              {/* Botón de guardado eliminado */}
             </div>
           )}
         </div>
